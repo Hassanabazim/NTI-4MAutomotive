@@ -1,3 +1,4 @@
+
 /*
  * HC_SR04.c
  *
@@ -6,7 +7,7 @@
  */ 
 #define F_CPU 16000000UL
 #include <avr/delay.h>
-#include "HC_SR04.h"
+#include "../../../NTI-4M/HAL/ultrasonic/HC_SR04.h"
 #include "std_types.h"
 #include <avr/io.h>
 #include <avr/interrupt.h>
