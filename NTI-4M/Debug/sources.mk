@@ -22,9 +22,11 @@ C_DEPS :=
 SUBDIRS := \
 HAL/Button \
 HAL/Led \
+HAL/eep24C08 \
 HAL/keypad \
 HAL/lcd \
 MCAL/Dio \
+MCAL/I2C \
 MCAL/spi \
 MCAL/uart \
 SERVICES/FreeRTOS/Source \

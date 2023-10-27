@@ -13,9 +13,11 @@ RM := rm -rf
 -include SERVICES/FreeRTOS/Source/subdir.mk
 -include MCAL/uart/subdir.mk
 -include MCAL/spi/subdir.mk
+-include MCAL/I2C/subdir.mk
 -include MCAL/Dio/subdir.mk
 -include HAL/lcd/subdir.mk
 -include HAL/keypad/subdir.mk
+-include HAL/eep24C08/subdir.mk
 -include HAL/Led/subdir.mk
 -include HAL/Button/subdir.mk
 -include subdir.mk
