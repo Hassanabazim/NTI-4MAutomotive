@@ -29,8 +29,5 @@ MCAL/Dio \
 MCAL/I2C \
 MCAL/spi \
 MCAL/uart \
-SERVICES/FreeRTOS/Source \
-SERVICES/FreeRTOS/Source/portable/GCC/ATMega323 \
-SERVICES/FreeRTOS/Source/portable/MemMang \
 . \
 

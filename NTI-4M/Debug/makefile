@@ -8,9 +8,6 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
--include SERVICES/FreeRTOS/Source/portable/MemMang/subdir.mk
--include SERVICES/FreeRTOS/Source/portable/GCC/ATMega323/subdir.mk
--include SERVICES/FreeRTOS/Source/subdir.mk
 -include MCAL/uart/subdir.mk
 -include MCAL/spi/subdir.mk
 -include MCAL/I2C/subdir.mk
